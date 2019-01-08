@@ -11,8 +11,9 @@
 @implementation HJAlertView
 
 + (void)showAlert {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"你是个好人" delegate:self cancelButtonTitle:@"" otherButtonTitles:@"确定", nil];
-    [alert show];
+    NSLog(@"～～～～Hello～～～～");
+//    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"你是个好人" delegate:self cancelButtonTitle:@"" otherButtonTitles:@"确定", nil];
+//    [alert show];
 }
 
 
